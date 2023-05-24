@@ -1,0 +1,573 @@
+/* This is the styling for the websites header */
+
+/*Header Style */
+.header {
+    background-color: #805458;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 115px auto;
+    overflow: hidden;
+    display: table;
+}
+
+.podTitle{
+    color: #F3EFD8;
+    font-size: 75px ;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    margin: 0 auto;
+    padding-top: 20px;
+    text-align: center;
+    vertical-align:top;
+}
+
+.socials {
+    float: right;
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    display: block;
+    margin: 0 auto;
+}
+.logo{
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+}
+.logo, .letterboxd, .twitter, .tiktok{
+    width: 100px;
+    overflow: none;
+
+}
+.letterboxd:hover, .twitter:hover, .tiktok:hover{
+    opacity: 0.5;
+}
+
+body {
+    background-color: #F3EFD8;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+ul {
+    padding: 5px;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    display: inline;
+}
+
+/*Webpage Nav Style */
+
+.activePage{
+    color: #F3EFD8;
+    background-color: #805458;
+    border-radius: 15px;
+    padding: 5px;
+    display: inline-block; 
+}
+#About{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 0 auto;
+    margin: 0 auto;
+}
+#Home{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+#Reviews{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+#About:hover,#Home:hover,#Reviews:hover{
+    opacity: 0.75;
+}
+
+/* Embedded Buzzsprout Audio Player */
+#player_iframe{
+    text-align: center;
+    display: inline;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    box-shadow: #805458;
+    
+}
+
+/* Video Carousel */
+
+.slider-wrapper {
+    margin: 0 ;
+    position: relative;
+    overflow: hidden;
+  }
+  .slides-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    scroll-behavior: smooth;
+  }
+  .slide {
+    width: 100%;
+    height: 100%;
+    flex: 1 0 100%;
+  }
+  .slide-buttons{
+    text-align: center;
+  }
+
+/*Button that links to the Youtube Channel*/
+.youtube-button-container{
+    border: #805458;
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+#youtube-button{
+    width: 250px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    
+}
+
+#youtube-button:hover{
+    opacity: 0.75;
+}
+
+/* Audio Podcast Link Container */
+
+.audio-podcast-links{
+    display: block;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+#spotify, #applepod{
+    width: 500px;
+    padding: 10px;
+}
+
+#applepod{
+    float: right;
+}
+
+#applepod:hover{
+    opacity: 0.75;
+}
+
+#spotify{
+    float: left;
+}
+
+#spotify:hover{
+    opacity: 0.75;
+}
+
+/* About Page CSS Styling */
+.about-container{
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 20px;
+    width: 90%;
+    display: flex;
+}
+
+#aboutimage{
+    width: 400px;
+    display: inline;
+    box-shadow: 0 4px 16px 0 #805458;
+}
+
+.aboutmessage{
+    float: right;
+    display: inline;
+    padding-left: 10px;
+    text-align: justify;
+}
+
+.aboutheader{
+    text-align: center;
+    font-size: 40px;
+}
+
+.abouttext{
+    font-size: 25px;
+}
+
+.contact{
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+    padding: 0;
+    padding-top: 10px;
+}
+
+
+/* Styling for footer */
+
+footer{
+    background-color: #805458;
+    width: 100%;
+    margin-top: auto;
+    margin: 0;
+    bottom: 0;
+    height: 50px;
+    overflow: hidden;
+}
+
+.footer-content{
+    color: #F3EFD8;
+}
+
+/* Review Page Styling */
+.review_container {
+    background: oldlace;
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 90%;
+}
+
+.card_track {
+    padding: 0 auto;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    row-gap: 50px;
+    grid-template-columns: auto auto auto auto;
+}
+
+.review_cards {
+    height:100%;
+}
+.card {
+    box-shadow: 0 4px 16px 0 #805458;
+    transition:0.3s;
+    width: 300px;
+    height: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 #805458;
+}
+
+.poster {
+    border-radius: 5px 5px 0 0;
+}
+
+.card_description {
+    padding: 2px 16px;
+    background: oldlace;
+    display: inline-block;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: oldlace;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  @media (max-width: 1582px) {
+
+    .podTitle{
+        font-size: 60px ;
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        display: inline-block;
+        margin: 0 auto;
+        padding-top: 20px;
+        text-align: center;
+        vertical-align:top;
+    }
+
+    .socials {
+        float: right;
+        padding-top: 15px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        display: block;
+        margin: 0 auto;
+    }
+    .logo{
+        padding-top: 15px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        margin: 0 auto;
+    }
+    .logo, .letterboxd, .twitter, .tiktok{
+        width: 80px;
+        overflow: none;
+    
+    }
+    .audio-podcast-links{
+        display: block;
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .review_container {
+        background: oldlace;
+        margin: 0 auto;
+        padding: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 90%;
+        display: table;
+        position: relative;
+    }
+    
+    .card_track {
+        padding: 10px;
+        margin: 0;
+        height: 100%;
+        list-style: none;
+        text-align: center;
+        display: block;i
+    }
+    
+    .review_cards {
+        padding-top: 15px;
+    }
+    
+    .card {
+        box-shadow: 0 4px 16px 0 #805458;
+        transition:0.3s;
+        width: 50%;
+        border-radius: 5px;
+        padding: 0;
+        margin: auto;
+        text-align: center;
+    }
+  }
+
+  @media (max-width: 1200px) {
+   
+    .logo{
+        display: none;
+    }
+
+    .podTitle{
+        font-size: 50px ;
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        display: inline-block;
+        margin: 0 auto;
+        padding-top: 20px;
+        text-align: center;
+        vertical-align:top;
+    }
+
+    .socials {
+        float: right;
+        padding-top: 15px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        display: block;
+        margin: 0 auto;
+    }
+    .logo{
+        padding-top: 15px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        margin: 0 auto;
+    }
+    .logo, .letterboxd, .twitter, .tiktok{
+        width: 70px;
+        overflow: none;
+    
+    }
+    .audio-podcast-links{
+        display: block;
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    #spotify, #applepod{
+        width: 400px;
+        padding: 10px;
+    }
+  }
+
+  /*Mobile View*/
+  @media (max-width: 480px) {
+    ul {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+    
+    li {
+        list-style:;
+        display: table;
+    }
+    
+    /*Webpage Nav Style */
+    
+    #About{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        padding: 0 auto;
+        margin: 0 auto;
+    }
+    #Home{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+    
+    #Reviews{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+    
+    #About:hover,#Home:hover,#Reviews:hover{
+        opacity: 0.75;
+    }
+    .logo{
+        display:block;
+        width: 250px;
+    }
+
+    .podTitle{
+        font-size: 40px ;
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        display: inline-block;
+        margin: 0 auto;
+        padding-top: 20px;
+        text-align: center;
+        vertical-align:top;
+    }
+
+    .socials {
+        display: table;
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+    }
+    .logo{
+        padding-top: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        margin: 0 auto;
+    }
+    .letterboxd, .twitter, .tiktok{
+        width: 80px;
+        overflow: none;
+    
+    }
+    .audio-podcast-links{
+        display: table;
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    #spotify, #applepod{
+        width: 400px;
+        padding: 10px;
+    }
+    .about-container{
+        margin: 0 auto;
+        padding: 0;
+        padding-top: 20px;
+        width: 90%;
+        display: table;
+    }
+    
+    #aboutimage{
+        width: 400px;
+        display: inline;
+        box-shadow: 0 4px 16px 0 #805458;
+    }
+    
+    .aboutmessage{
+        float: right;
+        display: inline;
+        padding-left: 10px;
+        text-align: justify;
+    }
+    
+    .aboutheader{
+        text-align: center;
+        font-size: 40px;
+    }
+    
+    .abouttext{
+        font-size: 25px;
+    }
+    
+    .contact{
+        margin: 0 auto;
+        width: 90%;
+        text-align: center;
+        padding: 0;
+        padding-top: 10px;
+    }
+    .contactEmail{
+        font-size: 20px;
+    }
+  }

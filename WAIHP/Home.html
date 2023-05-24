@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Why Am I Here? Podcast</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="" href="images/Podcast Logo.jpg">
+        
+        
+        
+    </head>
+    <div class="header" style="overflow: none;">
+        <img class = "logo" src="images/Podcast Logo.jpg" alt="">
+        <span class="podTitle">"Why Am I Here?" Podcast</span>
+        <span class="socials">         
+            <a href="https://twitter.com/WhyAmIHerePod">
+                <img class="twitter"  src="images/Twitter social icons - circle - blue.png" id="Twitterlogo">
+            </a>
+            <a href="https://letterboxd.com/SaniWilmer/">
+                <img class="letterboxd" src="images/Letterboxd.png">
+            </a>
+            <a href="https://www.tiktok.com/@whyamiherepod?_t=8bdv4xAul5v&_r=1">
+                <img class="tiktok" src="images/TIktok.png">
+            </a>
+        </span>                   
+    </div>
+    <body>
+        <nav class="webpage-nav">
+            <Ul>
+                <li style="font-size:50px; width: auto;" id="About">
+                    <a style="text-decoration: none; color: #805458;" href="About.html">ABOUT</a>
+                </li>
+                <li style="font-size:75px; width: auto;" id="Home" class="activePage">
+                    <a style="text-decoration: none; color: #F3EFD8;" href="Home.html">HOME</a>
+                </li>
+                <li style="font-size: 50px; width: auto;" id="Reviews">
+                    <a style="text-decoration: none; color: #805458;" href="Reviews.html">REVIEWS</a>
+                </li>
+            </Ul>
+        </nav>
+
+        <!--Video Carousel-->
+        <section class="slider-wrapper">
+            
+            <ul class="slides-container" id="slides-container">
+              <li class="slide">
+                <iframe width="90%" height="800" src="https://www.youtube.com/embed/67Scwlv2_Fc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></li>
+              <li class="slide">
+                <iframe width="90%" height="800" src="https://www.youtube.com/embed/K-STD2fYedk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></li>
+              <li class="slide">
+                <iframe width="90%" height= "800" src="https://www.youtube.com/embed/QhKNJrYqEWc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </li>
+              <li class="slide">
+                <iframe width="90%" height="800" src="https://www.youtube.com/embed/VKv7ac-dX_s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </li>
+            </ul>
+
+            <div class="slide-buttons">
+                <button class="slide-arrow" id="slide-arrow-prev">
+                    &#8249;
+                  </button>
+                  
+                  <button class="slide-arrow" id="slide-arrow-next">
+                    &#8250;
+                  </button>
+            </div>
+          </section>
+        <!--Youtube Button-->
+        <div class="youtube-button-container">
+            <a href="https://www.youtube.com/channel/UC8dGU9dnuu4Ifl2x1Z1xuGA">
+            <img id="youtube-button" src="images/yt_logo_rgb_light.png">
+            </a>
+        </div>
+
+        <iframe id="player_iframe" src="https://www.buzzsprout.com/1940417?client_source=large_player&iframe=true&referrer=https%3A%2F%2Fwww.buzzsprout.com%2F1940417%2Fpodcast%2Fembed" loading="lazy" width="100%" height="375" frameborder="0" scrolling="no" title="Why am I here? Podcast"></iframe>
+        <div class="audio-podcast-links">
+            <a href="https://open.spotify.com/show/782GcuVwvawBWyRTjcu0Aa?si=f366ff106774484e">
+            <img id="spotify" src="images/Spotify.png">
+            </a>
+            <span>
+                <a href="https://podcasts.apple.com/us/podcast/why-am-i-here-podcast/id1610171596">
+                <img id="applepod" src="images/APLOGO.png">
+                </a>
+            </span>
+        </div>
+        <script src="carousel.js"></script>
+        <script src="https://www.youtube.com/iframe_api"></script>
+    </body>
+
+
+    <footer>
+        <div class="footer-content">
+            <h3>Designed and Developed by Hasani Wilmer</h3>
+        </div>
+    </footer>
+    
+</html>
